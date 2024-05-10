@@ -84,3 +84,157 @@ footer {
 .button:hover {
     background-color: #004cbf;
 }
+a{
+color:white;
+text-decoration: azure;
+}
+.leeroy{
+    margin-right:20px;
+}
+.victoria{
+    display:flex;
+    gap:40px;
+
+}
+.sign-up{
+    background-color:#f5f5f5;
+    padding:5%;
+    display: flex;;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+ }
+ .sign-up img{
+    width:100%;
+    max-width:450px;
+ }
+ .sign-up h2{
+    font-size: 20px;
+    color: #616266;
+    margin-top:20px;
+    margin-bottom:30px;
+ }
+ .sign-up p{
+    font-size:15px;
+    margin-bottom:20px;
+    max-width:450px;
+ }
+ .sign-up button{
+    height:40px;
+    text-transform:uppercase;
+   background-color: sandybrown;
+    border:none;
+    color:#ffffff;
+    padding:0 20px;
+    font-weight:900;
+ }
+
+
+
+ /* end sign up section  */
+
+.signUp {
+    background-color:#f5f5f5;
+    width: 100%;
+    text-align: center;
+    
+   
+}
+
+.signUp img {
+     width: 80%;
+     padding-top: 4%;
+    
+    /* padding-left: 50px; */
+  
+   
+
+}
+
+.signUp-inner h4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(196, 191, 191);
+    margin-top: 10px;
+}
+
+.signUp-inner p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 10px;
+    margin-left: 8%;
+}
+
+
+
+.subSection {
+   background-color: hsl(0, 0%, 96%);
+   margin: 5% 5% 5% 4%;
+   
+
+}
+.info-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.info-card {
+    flex: 1 1 300px; /* Grow to fill space, but don't shrink below 300px */
+    max-width: 350px; /* Maximum width of each card */
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.info-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.info-card h2 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.info-card p {
+    font-size: 1em;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.info-card button {
+    padding: 10px 20px;
+    background-color: #0062E6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.info-card button:hover {
+    background-color: #004cbf;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .info-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-card {
+        flex: 0 0 90%; /* Don't grow or shrink, but be 90% of its container */
+    }
+}
